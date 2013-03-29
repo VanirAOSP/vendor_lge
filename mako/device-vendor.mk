@@ -1,4 +1,4 @@
-# Copyright (C) 2010 The Android Open Source Project
+# Copyright 2013 The Android Open Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -12,4 +12,8 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-$(call inherit-product, vendor/lge/mako/device-vendor-blobs.mk)
+LOCAL_STEM := mako/device-partial.mk
+
+$(call inherit-product-if-exists, vendor/lge/broadcom-mako/$(LOCAL_STEM))
+$(call inherit-product-if-exists, vendor/lge/$(LOCAL_STEM))
+$(call inherit-product-if-exists, vendor/lge/qcom-mako/$(LOCAL_STEM))
