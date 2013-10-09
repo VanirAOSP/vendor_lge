@@ -23,6 +23,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p880/proprietary/bin/tf_daemon:system/bin/tf_daemon \
     vendor/lge/p880/proprietary/lib/hw/camera.tegra.so:system/lib/hw/camera.tegra.so \
     vendor/lge/p880/proprietary/lib/hw/gps.tegra.so:system/lib/hw/gps.tegra.so \
+    vendor/lge/p880/proprietary/lib/hw/lights.x3.so:system/lib/hw/lights.x3.so \
     vendor/lge/p880/proprietary/lib/hw/sensors.tegra.so:system/lib/hw/sensors.tegra.so \
     vendor/lge/p880/proprietary/lib/hw/audio_policy.tegra.so:system/lib/hw/audio_policy.tegra.so \
     vendor/lge/p880/proprietary/lib/hw/audio.primary.tegra.so:system/lib/hw/audio.primary.tegra.so \
@@ -62,6 +63,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p880/proprietary/lib/libnvrm_graphics.so:system/lib/libnvrm_graphics.so \
     vendor/lge/p880/proprietary/lib/libnvrm.so:system/lib/libnvrm.so \
     vendor/lge/p880/proprietary/lib/libnvwsi.so:system/lib/libnvwsi.so \
+    vendor/lge/p880/proprietary/lib/lge-ril.so:system/lib/lge-ril.so \
     vendor/lge/p880/proprietary/lib/libini.so:system/lib/libini.so \
     vendor/lge/p880/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/lge/p880/proprietary/lib/libnvomx.so:system/lib/libnvomx.so \
@@ -86,6 +88,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p880/proprietary/etc/firmware/nvavp_os_eff00000.bin:system/etc/firmware/nvavp_os_eff00000.bin \
     vendor/lge/p880/proprietary/etc/firmware/nvavp_vid_ucode_alt.bin:system/etc/firmware/nvavp_vid_ucode_alt.bin \
     vendor/lge/p880/proprietary/etc/firmware/nvavp_vid_ucode.bin:system/etc/firmware/nvavp_vid_ucode.bin \
+    vendor/lge/p880/proprietary/etc/firmware/fw_bcmdhd.bin:system/etc/firmware/fw_bcmdhd.bin \
     vendor/lge/p880/proprietary/etc/firmware/fw_bcmdhd_p2p.bin:system/etc/firmware/fw_bcmdhd_p2p.bin \
     vendor/lge/p880/proprietary/etc/firmware/fw_bcmdhd_apsta.bin:system/etc/firmware/fw_bcmdhd_apsta.bin \
     vendor/lge/p880/proprietary/etc/firmware/BCM4330B1_002.001.003.0550.0633.hcd:system/etc/firmware/BCM4330B1_002.001.003.0550.0633.hcd \
