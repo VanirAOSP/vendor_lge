@@ -129,4 +129,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p700/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
     vendor/lge/p700/proprietary/lib/libmmparser.so:system/lib/libmmparser.so \
     vendor/lge/p700/proprietary/lib/libmmstillomx.so:system/lib/libmmstillomx.so \
-    vendor/lge/p700/proprietary/lib/libaudcal.so:system/lib/libaudcal.so
+    vendor/lge/e610/proprietary/lib/liboncrpc.so:obj/lib/liboncrpc.so \
+    vendor/lge/p700/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
+    vendor/lge/e610/proprietary/lib/libnv.so:obj/lib/libnv.so
