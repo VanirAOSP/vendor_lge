@@ -20,7 +20,8 @@
 #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ######################    DEPENDENCY SECTION  #######################
 PRODUCT_COPY_FILES += \
-    vendor/lge/e610/proprietary/lib/libaudcal.so:obj/lib/libaudcal.so
+    vendor/lge/p700/proprietary/lib/libaudcal.so:obj/lib/libaudcal.so
+
 
 
 PRODUCT_COPY_FILES += \
@@ -41,7 +42,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p700/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
     vendor/lge/p700/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
     vendor/lge/p700/proprietary/lib/libchromatix_hi542_preview.so:system/lib/libchromatix_hi542_preview.so \
-    vendor/lge/p700/proprietary/lib/hw/camera.msm7x27a.so:system/lib/hw/camera.msm7x27a.so \
+    vendor/lge/p700/proprietary/lib/hw/camera.msm7x27a.so:system/lib/hw/vendor-camera.msm7x27a.so \
     vendor/lge/p700/proprietary/etc/firmware/wlan/volans/WCN1314_cfg.dat:system/etc/firmware/wlan/volans/WCN1314_cfg.dat \
     vendor/lge/p700/proprietary/etc/firmware/wlan/volans/WCN1314_qcom_wlan_nv.bin:system/etc/firmware/wlan/volans/WCN1314_qcom_wlan_nv.bin \
     vendor/lge/p700/proprietary/etc/firmware/wlan/volans/WCN1314_qcom_fw.bin:system/etc/firmware/wlan/volans/WCN1314_qcom_fw.bin \
@@ -52,8 +53,8 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p700/proprietary/lib/libwcnftm.so:system/lib/libwcnftm.so \
     vendor/lge/p700/proprietary/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \
     vendor/lge/p700/proprietary/lib/libril-qc-1.so:system/lib/libril-qc-1.so \
-    vendor/lge/e610/proprietary/lib/libqmi_client_qmux.so:system/lib/libqmi_client_qmux.so \
-    vendor/lge/e610/proprietary/lib/libqmi_csvt_srvc.so:system/lib/libqmi_csvt_srvc.so \
+    vendor/lge/p700/proprietary/lib/libqmi_client_qmux.so:system/lib/libqmi_client_qmux.so \
+    vendor/lge/p700/proprietary/lib/libqmi_csvt_srvc.so:system/lib/libqmi_csvt_srvc.so \
     vendor/lge/p700/proprietary/lib/libqueue.so:system/lib/libqueue.so \
     vendor/lge/p700/proprietary/lib/libqmiservices.so:system/lib/libqmiservices.so \
     vendor/lge/p700/proprietary/lib/libqmi.so:system/lib/libqmi.so \
@@ -128,6 +129,4 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p700/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
     vendor/lge/p700/proprietary/lib/libmmparser.so:system/lib/libmmparser.so \
     vendor/lge/p700/proprietary/lib/libmmstillomx.so:system/lib/libmmstillomx.so \
-    vendor/lge/e610/proprietary/lib/libaudcal.so:obj/lib/libaudcal.so \
-    vendor/lge/e610/proprietary/lib/liboncrpc.so:obj/lib/liboncrpc.so \
-    vendor/lge/e610/proprietary/lib/libnv.so:obj/lib/libnv.so 
+    vendor/lge/p700/proprietary/lib/libaudcal.so:system/lib/libaudcal.so
