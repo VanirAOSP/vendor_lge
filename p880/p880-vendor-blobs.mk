@@ -23,7 +23,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p880/proprietary/bin/tf_daemon:system/bin/tf_daemon \
     vendor/lge/p880/proprietary/lib/hw/camera.tegra.so:system/lib/hw/camera.tegra.so \
     vendor/lge/p880/proprietary/lib/hw/gps.tegra.so:system/lib/hw/gps.tegra.so \
-    vendor/lge/p880/proprietary/lib/hw/lights.x3.so:system/lib/hw/lights.x3.so \
+    vendor/lge/p880/proprietary/lib/hw/lights.tegra.so:system/lib/hw/lights.tegra.so \
     vendor/lge/p880/proprietary/lib/hw/sensors.tegra.so:system/lib/hw/sensors.tegra.so \
     vendor/lge/p880/proprietary/lib/hw/audio_policy.tegra.so:system/lib/hw/audio_policy.tegra.so \
     vendor/lge/p880/proprietary/lib/hw/audio.primary.tegra.so:system/lib/hw/audio.primary.tegra.so \
@@ -88,18 +88,26 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p880/proprietary/etc/firmware/nvavp_os_eff00000.bin:system/etc/firmware/nvavp_os_eff00000.bin \
     vendor/lge/p880/proprietary/etc/firmware/nvavp_vid_ucode_alt.bin:system/etc/firmware/nvavp_vid_ucode_alt.bin \
     vendor/lge/p880/proprietary/etc/firmware/nvavp_vid_ucode.bin:system/etc/firmware/nvavp_vid_ucode.bin \
-    vendor/lge/p880/proprietary/etc/firmware/fw_bcmdhd.bin:system/etc/firmware/fw_bcmdhd.bin \
-    vendor/lge/p880/proprietary/etc/firmware/fw_bcmdhd_p2p.bin:system/etc/firmware/fw_bcmdhd_p2p.bin \
-    vendor/lge/p880/proprietary/etc/firmware/fw_bcmdhd_apsta.bin:system/etc/firmware/fw_bcmdhd_apsta.bin \
     vendor/lge/p880/proprietary/etc/firmware/BCM4330B1_002.001.003.0550.0633.hcd:system/etc/firmware/BCM4330B1_002.001.003.0550.0633.hcd \
+    vendor/lge/p880/proprietary/lib/libddp_omx.so:system/lib/libddp_omx.so \
+    vendor/lge/p880/proprietary/lib/libstagefright_soft_ddpdec.so:system/lib/libstagefright_soft_ddpdec.so \
+    vendor/lge/p880/proprietary/lib/libSR_AudioIn.so:system/lib/libSR_AudioIn.so \
+    vendor/lge/p880/proprietary/lib/libsrsprocessing.so:system/lib/libsrsprocessing.so \
+    vendor/lge/p880/proprietary/lib/soundfx/libdolbysurroundeffect.so:system/lib/soundfx/libdolbysurroundeffect.so \
+    vendor/lge/p880/proprietary/lib/soundfx/libsrsfx.so:system/lib/soundfx/libsrsfx.so \
+    vendor/lge/p880/proprietary/lib/soundfx/libbundlewrapper.so:system/lib/soundfx/libbundlewrapper.so \
+    vendor/lge/p880/proprietary/lib/soundfx/libcyanogen-dsp.so:system/lib/soundfx/libcyanogen-dsp.so \
+    vendor/lge/p880/proprietary/lib/soundfx/libdownmix.so:system/lib/soundfx/libdownmix.so \
+    vendor/lge/p880/proprietary/lib/soundfx/libldnhncr.so:system/lib/soundfx/libldnhncr.so \
+    vendor/lge/p880/proprietary/lib/soundfx/libreverbwrapper.so:system/lib/soundfx/libreverbwrapper.so \
+    vendor/lge/p880/proprietary/lib/soundfx/libvisualizer.so:system/lib/soundfx/libvisualizer.so \
+    vendor/lge/p880/proprietary/lib/soundfx/libaudiopreprocessing.so:system/lib/soundfx/libaudiopreprocessing.so \
     vendor/lge/p880/proprietary/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so \
-    vendor/lge/p880/proprietary/lib/egl/libEGL_tegra_impl.so:system/lib/egl/libEGL_tegra_impl.so \
-    vendor/lge/p880/proprietary/lib/egl/libGLESv2_tegra_impl.so:system/lib/egl/libGLESv2_tegra_impl.so \
-    vendor/lge/p880/proprietary/lib/egl/libGLESv1_CM_tegra_impl.so:system/lib/egl/libGLESv1_CM_tegra_impl.so \
     vendor/lge/p880/proprietary/lib/libnvglsi.so:system/lib/libnvglsi.so \
     vendor/lge/p880/proprietary/lib/libnvcamerahdr.so:system/lib/libnvcamerahdr.so \
     vendor/lge/p880/proprietary/lib/libmorpho_noise_reduction.so:system/lib/libmorpho_noise_reduction.so \
     vendor/lge/p880/proprietary/lib/libnvaudioservice.so:system/lib/libnvaudioservice.so \
+    vendor/lge/p880/proprietary/etc/apns-conf.xml:system/etc/apns-conf.xml \
+    vendor/lge/p880/proprietary/lib/libtjpg.so:system/lib/libtjpg.so \
     vendor/lge/p880/proprietary/lib/libtinyalsa.so:system/lib/libtinyalsa.so \
-    vendor/lge/p880/proprietary/lib/libaudioavp.so:system/lib/libaudioavp.so \
-    vendor/lge/p880/proprietary/lib/lgejpeg.so:system/lib/lgejpeg.so
+    vendor/lge/p880/proprietary/lib/libaudioavp.so:system/lib/libaudioavp.so
