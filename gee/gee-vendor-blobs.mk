@@ -24,6 +24,8 @@ PRODUCT_COPY_FILES += \
     vendor/lge/gee/proprietary/bin/usbhub_init:system/bin/usbhub_init \
     vendor/lge/gee/proprietary/bin/v4l2-qcamera-app:system/bin/v4l2-qcamera-app \
     vendor/lge/gee/proprietary/etc/DxHDCP.cfg:system/etc/DxHDCP.cfg \
+    vendor/lge/gee/proprietary/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
+    vendor/lge/gee/proprietary/etc/firmware/a300_pm4.fw:system/etc/firmware/a300_pm4.fw \
     vendor/lge/gee/proprietary/etc/firmware/tzapps.b00:system/etc/firmware/tzapps.b00 \
     vendor/lge/gee/proprietary/etc/firmware/tzapps.b01:system/etc/firmware/tzapps.b01 \
     vendor/lge/gee/proprietary/etc/firmware/tzapps.b02:system/etc/firmware/tzapps.b02 \
@@ -148,8 +150,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/gee/proprietary/lib/libsensor_user_cal.so:system/lib/libsensor_user_cal.so \
     vendor/lge/gee/proprietary/lib/libstagefright_hdcp.so:system/lib/libstagefright_hdcp.so \
     vendor/lge/gee/proprietary/lib/libxml.so:system/lib/libxml.so \
-    vendor/lge/gee/proprietary/vendor/firmware/a300_pfp.fw:system/vendor/firmware/a300_pfp.fw \
-    vendor/lge/gee/proprietary/vendor/firmware/a300_pm4.fw:system/vendor/firmware/a300_pm4.fw \
     vendor/lge/gee/proprietary/vendor/firmware/q6.b00:system/vendor/firmware/q6.b00 \
     vendor/lge/gee/proprietary/vendor/firmware/q6.b01:system/vendor/firmware/q6.b01 \
     vendor/lge/gee/proprietary/vendor/firmware/q6.b03:system/vendor/firmware/q6.b03 \
