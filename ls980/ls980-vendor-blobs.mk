@@ -66,7 +66,8 @@ PRODUCT_COPY_FILES += \
     vendor/lge/ls980/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/lge/ls980/proprietary/etc/Speaker_cal.acdb:system/etc/Speaker_cal.acdb \
     vendor/lge/ls980/proprietary/lib/hw/camera.vendor.msm8974.so:system/lib/hw/camera.vendor.msm8974.so \
-    vendor/lge/ls980/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
+    vendor/lge/d802/proprietary/lib/hw/flp.msm8974.so:system/lib/hw/flp.msm8974.so \
+    vendor/lge/d802/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
     vendor/lge/ls980/proprietary/lib/hw/gps.msm8974.so:system/lib/hw/gps.msm8974.so \
     vendor/lge/ls980/proprietary/lib/libadsprpc.so:system/lib/libadsprpc.so \
     vendor/lge/ls980/proprietary/lib/libdrmdiag.so:system/lib/libdrmdiag.so \
@@ -78,9 +79,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/ls980/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
     vendor/lge/ls980/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
     vendor/lge/ls980/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
-    vendor/lge/ls980/proprietary/lib/libloc_xtra.so:system/lib/libloc_xtra.so \
-    vendor/lge/ls980/proprietary/vendor/lib/libloc_ext.so:system/vendor/lib/libloc_ext.so \
-    vendor/lge/ls980/proprietary/vendor/lib/liblocationservice.so:system/vendor/lib/liblocationservice.so \
     vendor/lge/ls980/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/lge/ls980/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/lge/ls980/proprietary/lib/libmorpho_movie_stabilization.so:system/lib/libmorpho_movie_stabilization.so \
