@@ -87,6 +87,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/ls980/proprietary/lib/libmorpho_image_stab31.so:system/lib/libmorpho_image_stab31.so \
     vendor/lge/ls980/proprietary/lib/libLGsk.so:system/lib/libLGsk.so \
     vendor/lge/ls980/proprietary/lib/libVDObjectTrackerAPI.so:system/lib/libVDObjectTrackerAPI.so \
+    vendor/lge/d802/proprietary/vendor/lib/hw/power.msm8974.so:system/vendor/lib/hw/power.msm8974.so \
     vendor/lge/ls980/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/lge/ls980/proprietary/lib/libmmQSM.so:system/lib/libmmQSM.so \
     vendor/lge/ls980/proprietary/lib/liboemcrypto.so:system/lib/liboemcrypto.so \

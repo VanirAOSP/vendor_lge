@@ -89,6 +89,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/d801/proprietary/lib/libVDObjectTrackerAPI.so:system/lib/libVDObjectTrackerAPI.so \
     vendor/lge/d801/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/lge/d801/proprietary/lib/libmmQSM.so:system/lib/libmmQSM.so \
+    vendor/lge/d802/proprietary/vendor/lib/hw/power.msm8974.so:system/vendor/lib/hw/power.msm8974.so \
     vendor/lge/d801/proprietary/lib/liboemcrypto.so:system/lib/liboemcrypto.so \
     vendor/lge/d801/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/lge/d801/proprietary/lib/libQSEEComAPI.so:system/lib/libQSEEComAPI.so \
