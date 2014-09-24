@@ -24,8 +24,8 @@ PRODUCT_COPY_FILES += \
     vendor/lge/gee/proprietary/bin/usbhub_init:system/bin/usbhub_init \
     vendor/lge/gee/proprietary/bin/v4l2-qcamera-app:system/bin/v4l2-qcamera-app \
     vendor/lge/gee/proprietary/etc/DxHDCP.cfg:system/etc/DxHDCP.cfg \
-    vendor/lge/gee/proprietary/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
-    vendor/lge/gee/proprietary/etc/firmware/a300_pm4.fw:system/etc/firmware/a300_pm4.fw \
+    vendor/lge/gee/proprietary/vendor/firmware/a300_pfp.fw:system/vendor/firmware/a300_pfp.fw \
+    vendor/lge/gee/proprietary/vendor/firmware/a300_pm4.fw:system/vendor/firmware/a300_pm4.fw \
     vendor/lge/gee/proprietary/etc/firmware/tzapps.b00:system/etc/firmware/tzapps.b00 \
     vendor/lge/gee/proprietary/etc/firmware/tzapps.b01:system/etc/firmware/tzapps.b01 \
     vendor/lge/gee/proprietary/etc/firmware/tzapps.b02:system/etc/firmware/tzapps.b02 \
@@ -94,6 +94,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/gee/proprietary/lib/libdss.so:system/lib/libdss.so \
     vendor/lge/gee/proprietary/lib/libdsucsd.so:system/lib/libdsucsd.so \
     vendor/lge/gee/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
+    vendor/lge/gee/proprietary/lib/libDxHdcp.so:system/lib/libDxHdcp.so \
     vendor/lge/gee/proprietary/lib/libgemini.so:system/lib/libgemini.so \
     vendor/lge/gee/proprietary/lib/libgeofence.so:system/lib/libgeofence.so \
     vendor/lge/gee/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
@@ -149,6 +150,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/gee/proprietary/lib/libsensor_reg.so:system/lib/libsensor_reg.so \
     vendor/lge/gee/proprietary/lib/libsensor_user_cal.so:system/lib/libsensor_user_cal.so \
     vendor/lge/gee/proprietary/lib/libstagefright_hdcp.so:system/lib/libstagefright_hdcp.so \
+    vendor/lge/gee/proprietary/lib/libWVphoneAPI.so:system/lib/libWVphoneAPI.so \
     vendor/lge/gee/proprietary/lib/libxml.so:system/lib/libxml.so \
     vendor/lge/gee/proprietary/vendor/firmware/q6.b00:system/vendor/firmware/q6.b00 \
     vendor/lge/gee/proprietary/vendor/firmware/q6.b01:system/vendor/firmware/q6.b01 \
