@@ -63,12 +63,14 @@ PRODUCT_COPY_FILES += \
     vendor/lge/ls980/proprietary/etc/Handset_cal.acdb:system/etc/Handset_cal.acdb \
     vendor/lge/ls980/proprietary/etc/Hdmi_cal.acdb:system/etc/Hdmi_cal.acdb \
     vendor/lge/ls980/proprietary/etc/Headset_cal.acdb:system/etc/Headset_cal.acdb \
+    vendor/lge/ls980/proprietary/etc/permissions/com.nxp.mifare.xml:system/etc/permissions/com.nxp.mifare.xml \
     vendor/lge/ls980/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/lge/ls980/proprietary/etc/Speaker_cal.acdb:system/etc/Speaker_cal.acdb \
     vendor/lge/ls980/proprietary/lib/hw/camera.vendor.msm8974.so:system/lib/hw/camera.vendor.msm8974.so \
-    vendor/lge/d802/proprietary/lib/hw/flp.msm8974.so:system/lib/hw/flp.msm8974.so \
-    vendor/lge/d802/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
+    vendor/lge/ls980/proprietary/lib/hw/flp.msm8974.so:system/lib/hw/flp.msm8974.so \
+    vendor/lge/ls980/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
     vendor/lge/ls980/proprietary/lib/hw/gps.msm8974.so:system/lib/hw/gps.msm8974.so \
+    vendor/lge/ls980/proprietary/lib/hw/nfc.default.so:system/ls980/proprietary/lib/hw/nfc.default.so \
     vendor/lge/ls980/proprietary/lib/libadsprpc.so:system/lib/libadsprpc.so \
     vendor/lge/ls980/proprietary/lib/libdrmdiag.so:system/lib/libdrmdiag.so \
     vendor/lge/ls980/proprietary/lib/libdrmfs.so:system/lib/libdrmfs.so \
@@ -106,8 +108,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/ls980/proprietary/lib/libxml.so:system/lib/libxml.so \
     vendor/lge/ls980/proprietary/vendor/firmware/a330_pfp.fw:system/vendor/firmware/a330_pfp.fw \
     vendor/lge/ls980/proprietary/vendor/firmware/a330_pm4.fw:system/vendor/firmware/a330_pm4.fw \
-    vendor/lge/ls980/proprietary/vendor/firmware/BCM20791B5_002.006.013.0011.0027_LGE_A1_I2C_NCD_Signed_ORC.ncd:system/vendor/firmware/BCM20791B5_002.006.013.0011.0027_LGE_A1_I2C_NCD_Signed_ORC.ncd \
-    vendor/lge/ls980/proprietary/vendor/firmware/BCM20791B5_002.006.013.0011.0027_LGE_A1_PreI2C_NCD_Signed_ORC.ncd:system/vendor/firmware/BCM20791B5_002.006.013.0011.0027_LGE_A1_PreI2C_NCD_Signed_ORC.ncd \
+    vendor/lge/ls980/proprietary/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so \
     vendor/lge/ls980/proprietary/vendor/firmware/BCM4335B0_002.001.006.0191.0201_ORC.hcd:system/vendor/firmware/BCM4335B0_002.001.006.0191.0201_ORC.hcd \
     vendor/lge/ls980/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/lge/ls980/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
