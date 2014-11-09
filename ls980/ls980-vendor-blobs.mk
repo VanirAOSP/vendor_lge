@@ -75,6 +75,8 @@ PRODUCT_COPY_FILES += \
     vendor/lge/ls980/proprietary/lib/libdrmtime.so:system/lib/libdrmtime.so \
     vendor/lge/ls980/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
     vendor/lge/ls980/proprietary/vendor/lib/libI420colorconvert.so:system/vendor/lib/libI420colorconvert.so \
+    vendor/lge/ls980/proprietary/lib/libLGnfc_config.so:system/lib/libLGnfc_config.so \
+    vendor/lge/ls980/proprietary/lib/libLGnfc_jni.so:system/lib/libLGnfc_jni.so \
     vendor/lge/ls980/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/lge/ls980/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
     vendor/lge/ls980/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
@@ -89,6 +91,11 @@ PRODUCT_COPY_FILES += \
     vendor/lge/ls980/proprietary/lib/libVDObjectTrackerAPI.so:system/lib/libVDObjectTrackerAPI.so \
     vendor/lge/ls980/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/lge/ls980/proprietary/lib/libmmQSM.so:system/lib/libmmQSM.so \
+    vendor/lge/ls980/proprietary/lib/libnfc-nxp.so:system/lib/libnfc-nxp.so \
+    vendor/lge/ls980/proprietary/lib/libnfc13-nxp.so:system/lib/libnfc13-nxp.so \
+    vendor/lge/ls980/proprietary/lib/libnfc13_ndef.so:system/lib/libnfc13_ndef.so \
+    vendor/lge/ls980/proprietary/lib/libnfc_ndef-nxp.so:system/lib/libnfc_ndef-nxp.so \
+    vendor/lge/ls980/proprietary/lib/libnfc_ndef.so:system/lib/libnfc_ndef.so \
     vendor/lge/ls980/proprietary/lib/liboemcrypto.so:system/lib/liboemcrypto.so \
     vendor/lge/ls980/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/lge/ls980/proprietary/lib/libQSEEComAPI.so:system/lib/libQSEEComAPI.so \
@@ -106,6 +113,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/ls980/proprietary/lib/libxml.so:system/lib/libxml.so \
     vendor/lge/ls980/proprietary/vendor/firmware/a330_pfp.fw:system/vendor/firmware/a330_pfp.fw \
     vendor/lge/ls980/proprietary/vendor/firmware/a330_pm4.fw:system/vendor/firmware/a330_pm4.fw \
+    vendor/lge/ls980/proprietary/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so \
     vendor/lge/ls980/proprietary/vendor/firmware/BCM20791B5_002.006.013.0011.0027_LGE_A1_I2C_NCD_Signed_ORC.ncd:system/vendor/firmware/BCM20791B5_002.006.013.0011.0027_LGE_A1_I2C_NCD_Signed_ORC.ncd \
     vendor/lge/ls980/proprietary/vendor/firmware/BCM20791B5_002.006.013.0011.0027_LGE_A1_PreI2C_NCD_Signed_ORC.ncd:system/vendor/firmware/BCM20791B5_002.006.013.0011.0027_LGE_A1_PreI2C_NCD_Signed_ORC.ncd \
     vendor/lge/ls980/proprietary/vendor/firmware/BCM4335B0_002.001.006.0191.0201_ORC.hcd:system/vendor/firmware/BCM4335B0_002.001.006.0191.0201_ORC.hcd \
