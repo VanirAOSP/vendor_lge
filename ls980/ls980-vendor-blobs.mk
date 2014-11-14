@@ -63,13 +63,13 @@ PRODUCT_COPY_FILES += \
     vendor/lge/ls980/proprietary/etc/Handset_cal.acdb:system/etc/Handset_cal.acdb \
     vendor/lge/ls980/proprietary/etc/Hdmi_cal.acdb:system/etc/Hdmi_cal.acdb \
     vendor/lge/ls980/proprietary/etc/Headset_cal.acdb:system/etc/Headset_cal.acdb \
+    vendor/lge/ls980/proprietary/etc/sec_config:system/etc/sec_config \
+    vendor/lge/ls980/proprietary/etc/sensor_def_variable.conf:system/etc/sensor_def_variable.conf \
     vendor/lge/ls980/proprietary/etc/permissions/com.nxp.mifare.xml:system/etc/permissions/com.nxp.mifare.xml \
     vendor/lge/ls980/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/lge/ls980/proprietary/etc/Speaker_cal.acdb:system/etc/Speaker_cal.acdb \
-    vendor/lge/ls980/proprietary/lib/hw/camera.vendor.msm8974.so:system/lib/hw/camera.vendor.msm8974.so \
-    vendor/lge/ls980/proprietary/lib/hw/flp.msm8974.so:system/lib/hw/flp.msm8974.so \
-    vendor/lge/ls980/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
-    vendor/lge/ls980/proprietary/lib/hw/gps.msm8974.so:system/lib/hw/gps.msm8974.so \
+    vendor/lge/ls980/proprietary/lib/hw/camera.msm8974.so:system/lib/hw/camera.msm8974.so \
+    vendor/lge/ls980/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/lge/ls980/proprietary/lib/hw/nfc.default.so:system/ls980/proprietary/lib/hw/nfc.default.so \
     vendor/lge/ls980/proprietary/lib/libadsprpc.so:system/lib/libadsprpc.so \
     vendor/lge/ls980/proprietary/lib/libdrmdiag.so:system/lib/libdrmdiag.so \
@@ -106,8 +106,13 @@ PRODUCT_COPY_FILES += \
     vendor/lge/ls980/proprietary/lib/libvss_common_core.so:system/lib/libvss_common_core.so \
     vendor/lge/ls980/proprietary/lib/libWVphoneAPI.so:system/lib/libWVphoneAPI.so \
     vendor/lge/ls980/proprietary/lib/libxml.so:system/lib/libxml.so \
-    vendor/lge/ls980/proprietary/vendor/firmware/a330_pfp.fw:system/vendor/firmware/a330_pfp.fw \
-    vendor/lge/ls980/proprietary/vendor/firmware/a330_pm4.fw:system/vendor/firmware/a330_pm4.fw \
+    vendor/lge/ls980/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
+    vendor/lge/ls980/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
+    vendor/lge/ls980/proprietary/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
+    vendor/lge/ls980/proprietary/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
+    vendor/lge/ls980/proprietary/etc/firmware/a300_pm4.fw:system/etc/firmware/a300_pm4.fw \
+    vendor/lge/ls980/proprietary/etc/firmware/a330_pfp.fw:system/etc/firmware/a330_pfp.fw \
+    vendor/lge/ls980/proprietary/etc/firmware/a330_pm4.fw:system/etc/firmware/a330_pm4.fw \
     vendor/lge/ls980/proprietary/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so \
     vendor/lge/ls980/proprietary/vendor/firmware/BCM4335B0_002.001.006.0191.0201_ORC.hcd:system/vendor/firmware/BCM4335B0_002.001.006.0191.0201_ORC.hcd \
     vendor/lge/ls980/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
@@ -118,6 +123,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/ls980/proprietary/vendor/lib/egl/libplayback_adreno.so:system/vendor/lib/egl/libplayback_adreno.so \
     vendor/lge/ls980/proprietary/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
     vendor/lge/ls980/proprietary/vendor/lib/hw/sensors.msm8974.so:system/vendor/lib/hw/sensors.msm8974.so \
+    vendor/lge/ls980/proprietary/vendor/lib/libdsutils.so:system/vendor//lib/libdsutils.so \
     vendor/lge/ls980/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
     vendor/lge/ls980/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
     vendor/lge/ls980/proprietary/vendor/lib/libadiertac.so:system/vendor/lib/libadiertac.so \
@@ -210,6 +216,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/ls980/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
     vendor/lge/ls980/proprietary/vendor/lib/libOpenVG.so:system/vendor/lib/libOpenVG.so \
     vendor/lge/ls980/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
+    vendor/lge/ls980/proprietary/vendor/lib/libqcgesture.so:system/vendor/lib/libqcgesture.so \
     vendor/lge/ls980/proprietary/vendor/lib/libqc-opt.so:system/vendor/lib/libqc-opt.so \
     vendor/lge/ls980/proprietary/vendor/lib/libqdi.so:system/vendor/lib/libqdi.so \
     vendor/lge/ls980/proprietary/vendor/lib/libqdp.so:system/vendor/lib/libqdp.so \
