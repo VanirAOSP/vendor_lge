@@ -63,12 +63,12 @@ PRODUCT_COPY_FILES += \
     vendor/lge/ls980/proprietary/etc/Handset_cal.acdb:system/etc/Handset_cal.acdb \
     vendor/lge/ls980/proprietary/etc/Hdmi_cal.acdb:system/etc/Hdmi_cal.acdb \
     vendor/lge/ls980/proprietary/etc/Headset_cal.acdb:system/etc/Headset_cal.acdb \
+    vendor/lge/ls980/proprietary/etc/sensor_def_variable.conf:system/etc/sensor_def_variable.conf \
     vendor/lge/ls980/proprietary/etc/permissions/com.nxp.mifare.xml:system/etc/permissions/com.nxp.mifare.xml \
     vendor/lge/ls980/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/lge/ls980/proprietary/etc/Speaker_cal.acdb:system/etc/Speaker_cal.acdb \
     vendor/lge/ls980/proprietary/lib/hw/camera.vendor.msm8974.so:system/lib/hw/camera.vendor.msm8974.so \
     vendor/lge/ls980/proprietary/lib/hw/flp.msm8974.so:system/lib/hw/flp.msm8974.so \
-    vendor/lge/ls980/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
     vendor/lge/ls980/proprietary/lib/hw/gps.msm8974.so:system/lib/hw/gps.msm8974.so \
     vendor/lge/ls980/proprietary/lib/hw/nfc.default.so:system/ls980/proprietary/lib/hw/nfc.default.so \
     vendor/lge/ls980/proprietary/lib/libadsprpc.so:system/lib/libadsprpc.so \
@@ -118,6 +118,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/ls980/proprietary/vendor/lib/egl/libplayback_adreno.so:system/vendor/lib/egl/libplayback_adreno.so \
     vendor/lge/ls980/proprietary/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
     vendor/lge/ls980/proprietary/vendor/lib/hw/sensors.msm8974.so:system/vendor/lib/hw/sensors.msm8974.so \
+    vendor/lge/ls980/proprietary/vendor/lib/libdsutils.so:system/vendor//lib/libdsutils.so \
     vendor/lge/ls980/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
     vendor/lge/ls980/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
     vendor/lge/ls980/proprietary/vendor/lib/libadiertac.so:system/vendor/lib/libadiertac.so \
