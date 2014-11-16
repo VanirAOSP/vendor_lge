@@ -27,6 +27,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/d802/proprietary/bin/thermald:system/bin/thermald \
     vendor/lge/d802/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/lge/d802/proprietary/bin/mpdecision:system/bin/mpdecision \
+    vendor/lge/d802/proprietary/bin/mvpd:system/bin/mvpd \
     vendor/lge/d802/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/lge/d802/proprietary/bin/nl_listener:system/bin/nl_listener \
     vendor/lge/d802/proprietary/bin/port-bridge:system/bin/port-bridge \
