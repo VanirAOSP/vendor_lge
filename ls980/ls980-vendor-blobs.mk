@@ -75,7 +75,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/ls980/proprietary/lib/libdrmdiag.so:system/lib/libdrmdiag.so \
     vendor/lge/ls980/proprietary/lib/libdrmfs.so:system/lib/libdrmfs.so \
     vendor/lge/ls980/proprietary/lib/libdrmtime.so:system/lib/libdrmtime.so \
-    vendor/lge/ls980/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
     vendor/lge/ls980/proprietary/vendor/lib/libI420colorconvert.so:system/vendor/lib/libI420colorconvert.so \
     vendor/lge/ls980/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/lge/ls980/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
