@@ -59,6 +59,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/ls980/proprietary/bin/thermald:system/bin/thermald \
     vendor/lge/ls980/proprietary/bin/thermal-engine:system/bin/thermal-engine \
     vendor/lge/ls980/proprietary/bin/mpdecision:system/bin/mpdecision \
+    vendor/lge/ls980/proprietary/bin/mvpd:system/bin/mvpd \
     vendor/lge/ls980/proprietary/bin/cnd:system/bin/cnd \
     vendor/lge/ls980/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/lge/ls980/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
