@@ -60,7 +60,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/d801/proprietary/bin/thermald:system/bin/thermald \
     vendor/lge/d801/proprietary/bin/thermal-engine:system/bin/thermal-engine \
     vendor/lge/d801/proprietary/bin/mpdecision:system/bin/mpdecision \
-    vendor/lge/d801/proprietary/bin/mvpd:system/bin/mvpd \
     vendor/lge/d801/proprietary/bin/cnd:system/bin/cnd \
     vendor/lge/d801/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/lge/d801/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
