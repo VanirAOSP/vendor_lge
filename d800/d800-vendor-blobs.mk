@@ -265,3 +265,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/d800/proprietary/vendor/firmware/BCM4335B0_002.001.006.0191.0201_ORC.hcd:system/vendor/firmware/BCM4335B0_002.001.006.0191.0201_ORC.hcd \
     vendor/lge/d800/proprietary/vendor/firmware/a330_pfp.fw:system/vendor/firmware/a330_pfp.fw \
     vendor/lge/d800/proprietary/vendor/firmware/a330_pm4.fw:system/vendor/firmware/a330_pm4.fw
+
+PRODUCT_COPY_FILES += \
+    vendor/lge/d800/proprietary/framework/qcmediaplayer.jar:system/framework/qcmediaplayer.jar

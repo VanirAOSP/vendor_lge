@@ -245,3 +245,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/d803/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
     vendor/lge/d803/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
     vendor/lge/d803/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so
+
+PRODUCT_COPY_FILES += \
+    vendor/lge/d803/proprietary/framework/qcmediaplayer.jar:system/framework/qcmediaplayer.jar
