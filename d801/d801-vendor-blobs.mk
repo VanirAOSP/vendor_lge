@@ -280,6 +280,3 @@ PRODUCT_COPY_FILES += \
     vendor/lge/d801/firmware/adsp.b11:system/vendor/firmware/adsp.b11 \
     vendor/lge/d801/firmware/adsp.b12:system/vendor/firmware/adsp.b12 \
     vendor/lge/d801/firmware/adsp.mdt:system/vendor/firmware/adsp.mdt
-
-PRODUCT_COPY_FILES += \
-    vendor/lge/d801/proprietary/framework/qcmediaplayer.jar:system/framework/qcmediaplayer.jar
