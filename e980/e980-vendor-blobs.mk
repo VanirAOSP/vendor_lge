@@ -115,7 +115,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/e980/proprietary/lib/libmm-abl.so:system/lib/libmm-abl.so \
     vendor/lge/e980/proprietary/lib/libmm-abl-oem.so:system/lib/libmm-abl-oem.so \
     vendor/lge/e980/proprietary/lib/libWVphoneAPI.so:system/lib/libWVphoneAPI.so \
-    vendor/lge/e980/proprietary/lib/hw/camera.msm8960.so:system/lib/hw/camera.msm8960.so \
+    vendor/lge/e980/proprietary/lib/hw/camera.vendor.msm8960.so:system/lib/hw/camera.vendor.msm8960.so \
     vendor/lge/e980/proprietary/lib/hw/nfc.default.so:system/lib/hw/nfc.default.so \
     vendor/lge/e980/proprietary/lib/hw/sensors.msm8960.so:system/lib/hw/sensors.msm8960.so \
     vendor/lge/e980/proprietary/bin/ATFWD-daemon:system/bin/ATFWD-daemon \
