@@ -1,4 +1,4 @@
-# Copyright (C) 2014 The CyanogenMod Project
+# Copyright (C) 2015 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -16,7 +16,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter g2 d800 d801 d802 d803 f320 l01f lgl22 ls980 vs980,$(TARGET_DEVICE)),)
+ifneq ($(filter g2 d800 d801 d802 d803 f320 l01f ls980 vs980,$(TARGET_DEVICE)),)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := PPPreference
