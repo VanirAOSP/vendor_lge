@@ -22,9 +22,6 @@ PRODUCT_PACKAGES += \
     qcnvitems \
     qcrilhook
 
-#PRODUCT_PACKAGES += \
-    com.qualcomm.location
-
 PRODUCT_PACKAGES += \
     libtime_genoff \
     libTimeService
