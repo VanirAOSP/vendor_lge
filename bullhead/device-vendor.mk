@@ -31,3 +31,21 @@ PRODUCT_PACKAGES += \
     rcsimssettings \
     rcsservice
 
+# Prebuilt Privileged APKs
+PRODUCT_PACKAGES += \
+    CNEService \
+    ConnMo \
+    DCMO \
+    DiagMon \
+    DMConfigUpdate \
+    DMService \
+    HotwordEnrollment \
+    LifeTimerService \
+    SprintDM
+
+# Symlinks
+PRODUCT_PACKAGES += \
+    libimsmedia_jni.so \
+    libimscamera_jni.so \
+    libdmengine.so \
+    libdmjavaplugin.so
