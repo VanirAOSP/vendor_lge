@@ -18,9 +18,13 @@ $(call inherit-product, vendor/lge/bullhead/bullhead-vendor-blobs.mk)
 
 # Prebuilt APKs
 PRODUCT_PACKAGES += \
+    atfwd \
     datastatusnotification \
+    HiddenMenu \
     ims \
     qcrilmsgtunnel \
+    RCSBootstraputil \
+    RcsImsBootstrapUtil \
     TimeService
 
 # Prebuilt jars
