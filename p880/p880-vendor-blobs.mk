@@ -21,12 +21,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p880/proprietary/bin/nvcpud:system/bin/nvcpud \
     vendor/lge/p880/proprietary/bin/rild:system/bin/rild \
     vendor/lge/p880/proprietary/bin/tf_daemon:system/bin/tf_daemon \
-    vendor/lge/p880/proprietary/lib/hw/audio.a2dp.default.so:system/lib/hw/audio.a2dp.default.so \
-    vendor/lge/p880/proprietary/lib/hw/audio.primary.default.so:system/lib/hw/audio.primary.default.so \
-    vendor/lge/p880/proprietary/lib/hw/audio.primary.tegra.so:system/lib/hw/audio.primary.tegra.so \
-    vendor/lge/p880/proprietary/lib/hw/audio.r_submix.default.so:system/lib/hw/audio.r_submix.default.so \
-    vendor/lge/p880/proprietary/lib/hw/audio_policy.default.so:system/lib/hw/audio_policy.default.so \
-    vendor/lge/p880/proprietary/lib/hw/audio_policy.tegra.so:system/lib/hw/audio_policy.tegra.so \
     vendor/lge/p880/proprietary/lib/hw/camera.tegra.so:system/lib/hw/camera.tegra.so \
     vendor/lge/p880/proprietary/lib/hw/gps.tegra.so:system/lib/hw/gps.tegra.so \
     vendor/lge/p880/proprietary/lib/hw/lights.x3.so:system/lib/hw/lights.x3.so \
@@ -41,16 +35,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p880/proprietary/lib/egl/libGLESv2_tegra.so:system/lib/egl/libGLESv2_tegra.so \
     vendor/lge/p880/proprietary/lib/libardrv_dynamic.so:system/lib/libardrv_dynamic.so \
     vendor/lge/p880/proprietary/lib/libasound.so:system/lib/libasound.so \
-    vendor/lge/p880/proprietary/lib/libaudioeffect_jni.so:system/lib/libaudioeffect_jni.so \
-    vendor/lge/p880/proprietary/lib/libaudioflinger.so:system/lib/libaudioflinger.so \
-    vendor/lge/p880/proprietary/lib/libaudiopolicymanager.so:system/lib/libaudiopolicymanager.so \
-    vendor/lge/p880/proprietary/lib/libaudiopolicymanagerdefault.so:system/lib/libaudiopolicymanagerdefault.so \
-    vendor/lge/p880/proprietary/lib/libaudiopolicyservice.so:system/lib/libaudiopolicyservice.so \
-    vendor/lge/p880/proprietary/lib/libaudioresampler.so:system/lib/libaudioresampler.so \
-    vendor/lge/p880/proprietary/lib/libaudioutils.so:system/lib/libaudioutils.so \
-    vendor/lge/p880/proprietary/lib/libavcodec.so:system/lib/libavcodec.so \
-    vendor/lge/p880/proprietary/lib/libavformat.so:system/lib/libavformat.so \
-    vendor/lge/p880/proprietary/lib/libavutil.so:system/lib/libavutil.so \
     vendor/lge/p880/proprietary/lib/libcgdrv.so:system/lib/libcgdrv.so \
     vendor/lge/p880/proprietary/lib/libinvensense_hal.so:system/lib/libinvensense_hal.so \
     vendor/lge/p880/proprietary/lib/liblgdrm.so:system/lib/liblgdrm.so \
@@ -99,24 +83,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p880/proprietary/lib/libnvmmlite_image.so:system/lib/libnvmmlite_image.so \
     vendor/lge/p880/proprietary/lib/libnvmmlite_msaudio.so:system/lib/libnvmmlite_msaudio.so \
     vendor/lge/p880/proprietary/lib/libnvparser.so:system/lib/libnvparser.so \
-    vendor/lge/p880/proprietary/lib/libsoundpool.so:system/lib/libsoundpool.so \
-    vendor/lge/p880/proprietary/lib/libsoundtrigger.so:system/lib/libsoundtrigger.so \
-    vendor/lge/p880/proprietary/lib/libsoundtriggerservice.so:system/lib/libsoundtriggerservice.so \
-    vendor/lge/p880/proprietary/lib/libSR_AudioIn.so:system/lib/libSR_AudioIn.so \
-    vendor/lge/p880/proprietary/lib/soundfx/libaudiopreprocessing.so:system/lib/soundfx/libaudiopreprocessing.so \
-    vendor/lge/p880/proprietary/lib/soundfx/libbundlewrapper.so:system/lib/soundfx/libbundlewrapper.so \
-    vendor/lge/p880/proprietary/lib/soundfx/libcyanogen-dsp.so:system/lib/soundfx/libcyanogen-dsp.so \
-    vendor/lge/p880/proprietary/lib/soundfx/libdolbysurroundeffect.so:system/lib/soundfx/libdolbysurroundeffect.so \
-    vendor/lge/p880/proprietary/lib/soundfx/libdownmix.so:system/lib/soundfx/libdownmix.so \
-    vendor/lge/p880/proprietary/lib/soundfx/libeffectproxy.so:system/lib/soundfx/libeffectproxy.so \
-    vendor/lge/p880/proprietary/lib/soundfx/libldnhncr.so:system/lib/soundfx/libldnhncr.so \
-    vendor/lge/p880/proprietary/lib/soundfx/libreverbwrapper.so:system/lib/soundfx/libreverbwrapper.so \
-    vendor/lge/p880/proprietary/lib/soundfx/libsrsfx.so:system/lib/soundfx/libsrsfx.so \
-    vendor/lge/p880/proprietary/lib/soundfx/libvisualizer.so:system/lib/soundfx/libvisualizer.so \
-    vendor/lge/p880/proprietary/etc/apns-conf.xml:system/etc/apns-conf.xml \
-    vendor/lge/p880/proprietary/etc/asound.conf:system/etc/asound.conf \
-    vendor/lge/p880/proprietary/etc/audio_effects.conf:system/etc/audio_effects.conf \
-    vendor/lge/p880/proprietary/etc/audio_policy.conf:system/etc/audio_policy.conf \
     vendor/lge/p880/proprietary/etc/firmware/nvavp_aud_ucode.bin:system/etc/firmware/nvavp_aud_ucode.bin \
     vendor/lge/p880/proprietary/etc/firmware/nvavp_os_0ff00000.bin:system/etc/firmware/nvavp_os_0ff00000.bin \
     vendor/lge/p880/proprietary/etc/firmware/nvavp_os_eff00000.bin:system/etc/firmware/nvavp_os_eff00000.bin \
