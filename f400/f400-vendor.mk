@@ -39,10 +39,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/f400/proprietary/etc/firmware/venus.mbn:system/etc/firmware/venus.mbn \
     vendor/lge/f400/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
     vendor/lge/f400/proprietary/etc/wifi/bcmdhd.cal:system/etc/wifi/bcmdhd.cal \
-<<<<<<< HEAD
-    vendor/lge/f400/proprietary/lib/libril.so:system/lib/libril.so \
-=======
->>>>>>> e315a6b... f400: Remove prebuilt ril and regenerate makefiles
     vendor/lge/f400/proprietary/lib/libuicc.so:system/lib/libuicc.so \
     vendor/lge/f400/proprietary/lib/libvss_common_idl.so:system/lib/libvss_common_idl.so \
     vendor/lge/f400/proprietary/lib/libvss_common_iface.so:system/lib/libvss_common_iface.so \
