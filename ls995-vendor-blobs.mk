@@ -253,4 +253,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/ls995/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
     vendor/lge/ls995/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
     vendor/lge/ls995/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
-    vendor/lge/ls995/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so
+    vendor/lge/ls995/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
+    vendor/lge/ls995/proprietary/vendor/firmware/BCM20791B5_002.006.013.0011.0043_Generic_I2C_NCD_Signed.ncd:system/vendor/firmware/BCM20791B5_002.006.013.0011.0043_Generic_I2C_NCD_Signed.ncd \
+    vendor/lge/ls995/proprietary/vendor/firmware/BCM20791B5_002.006.013.0011.0043_Generic_PreI2C_NCD_Signed.ncd:system/vendor/firmware/BCM20791B5_002.006.013.0011.0043_Generic_PreI2C_NCD_Signed.ncd
+
